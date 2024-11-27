@@ -44,7 +44,7 @@ const ContactMe = () => {
                 <ul className='text-base lg:text-lg'>
                     {projectList.map((project, index) => (
                         <li key={index} >
-                            <a href={project.link} target="_blank"
+                            <a href={project.link} target="_blank" rel="noreferrer"
                             style={linkStyle}
                             onMouseEnter={() => setIsHovered(true)}  
                             onMouseLeave={() => setIsHovered(false)}
